@@ -40,8 +40,13 @@
 /* ........................................................................ */
 /* ........................................................................ ....................................*/
 .bodyNav{
-  background-color: rgb(14, 77, 102);
-  height:800px;
+  background-color:#063c4d;
+  
+}
+.secPart{
+  background-color:#063c4d;
+  
+  
 }
 
 .upper{
@@ -54,7 +59,7 @@
 
 
 .myFirstNav{
-  background-color: rgb(14, 77, 102);
+  background-color: #063c4d;
   color:white
 }
 
@@ -69,115 +74,102 @@
 
 }
 .sdn{
-  background-color: rgb(14, 77, 102);
+  background-color: #042d3a;
   color:white;
 }
 
 
 /* ....................................dropdown............................. */
-/* 
-.na {
-  overflow: hidden;
-  background-color: #333;
+#co{
+  color:white;
+}
+#col{
+  color:white;
+}
+#coll{
+  color:white;
 }
 
-.na a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.na a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-.dropdown-content {
-  display: none;
+.img1{
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+
+  height:70%;
+  width:332px
+
+
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.img2{
+  position: static;
+  margin-left:20%;
+  height:80%;
+  width:660px;
+  
 }
-.vv{
-display:flex
+.cont{
+  display:flex;
+
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.pros{
+  margin-left:8%;
+  position: absolute;
+    margin-top:10%;
+
 }
- */
+.pros2{
+  position: static;
+  
+}
+
+.clan{
+  width:100px;
+  margin-left:50px;
+  margin-right:40px;
+}
+
+.clans{
+  width:100px;
+  margin-left:50px;
+  margin-right:40px;
+}
+
+#mb{
+border-radius: 50px;
+  width:440px;
+  padding:10px;
+  margin-left:100px;
+  /* border:5px solid red; */
+  background-color:white;
+
+}
+.div1flexg{
+  justify-content:space-around;
+}
 
 
+.div1g{
+  height:450px;
+  width:40%;
+  /* border:1px solid red; */
+
+}
+.div2g{
+  height:500px;
+  width:50%;
+  /* border:1px solid rgb(0, 255, 42); */
 
 
+}
+/* ,.,,,,,,,,,,,,,,,,,,,,,/.,mmmmmmmmmmmmmmmmmmmmm.................. */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.div1g>button{
+  background-color: #FFC740;
+  border-radius: 20px;
+  color:black;
+  border:none;
+}
 
 
 
