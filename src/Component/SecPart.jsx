@@ -20,7 +20,8 @@ export const SecPart = () => {
                         <Form.Control className="formCont" style={{
                             width:"270px",
                             borderRadius:"30px",
-                            padding:"17px"
+                            padding:"17px",
+                            border:"none",
                              
                         }}
                             placeholder="Enter Your Work email"
@@ -32,6 +33,7 @@ export const SecPart = () => {
                             width:"130px",
                           backgroundColor:"#ffd265",
                           color:"black",
+                          border:"none",
                             
                             }}  id="addon2">
                            Start Free

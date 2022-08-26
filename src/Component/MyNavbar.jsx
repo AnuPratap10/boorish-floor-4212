@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -18,10 +18,30 @@ import {
 } from '@chakra-ui/react'
 
 
+
+
+
+
+
+
 export const MyNavbar = () => {
+const [nav,setNavbar]=useState(false)
+  const changeNavbarBackground = () => {
+    if (window.scrollY >= 52) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+   
+  };
+  window.addEventListener("scroll", changeNavbarBackground);
+  
+console.log(nav)
+
   return (
 
     <>
+    
       <div classname="mainNavbar">
         <div className="firstDiv">
           <Navbar className="myFirstNav" >
@@ -36,14 +56,21 @@ export const MyNavbar = () => {
         {/* ..........................................................................................sec................................ */}
         <div className="secDiv">
 
-          <Navbar collapseOnSelect expand="lg"   >
+          <Navbar collapseOnSelect expand="lg"  
+
+                className={nav ? "nav active" : "nav"} 
+                 >
             <Container >
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="lead" />
                   {/*  */}
-                  <NavDropdown style={{marginLeft:"50%"}}  title="Why LeadIQ" id="co">
+                  <NavDropdown style={{marginLeft:"50%" , }}    title="Why LeadIQ"  id="co"
+                  
+                
+                  
+                  >
                     <NavDropdown.Item  href="#action/3.1">Features</NavDropdown.Item>
                     <NavDropdown.Item  href="#action/3.2">
 

@@ -4,7 +4,7 @@ import React from 'react'
 export const GrayPage = () => {
     return (
         <>
-            <div style={{ height: "600px" }}>
+            <div style={{ height: "900px" ,backgroundColor:"#f4fbfc",border:"1px solid red"}}>
 
                 <div>
                     <h1>Sales teams spend too much time on <br /> low value activities. </h1>
