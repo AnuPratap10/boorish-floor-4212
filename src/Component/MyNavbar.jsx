@@ -17,7 +17,7 @@ import {
   ModalCloseButton,
 } from '@chakra-ui/react'
 
-
+import Login from "../Component/lOGIN/Login"
 
 
 
@@ -49,6 +49,8 @@ console.log(nav)
               <Nav.Link style={{ color: "white" }} href="#privacy">Privacy Center</Nav.Link>
               <Nav.Link style={{ color: "white" }} href="#support">Support</Nav.Link>
               <Nav.Link style={{ color: "white" }} href="#login">Login  </Nav.Link>
+       
+              
             </Nav>
 
           </Navbar>
