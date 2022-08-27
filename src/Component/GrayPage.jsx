@@ -4,7 +4,7 @@ import React from 'react'
 export const GrayPage = () => {
     return (
         <>
-            <div style={{ height: "900px" ,backgroundColor:"#f4fbfc",border:"1px solid red"}}>
+            <div style={{ height: "900px", backgroundColor: "#f4fbfc" }}>
 
                 <div>
                     <h1>Sales teams spend too much time on <br /> low value activities. </h1>
@@ -25,9 +25,17 @@ export const GrayPage = () => {
                         <h4 style={{ marginTop: "-40px", marginLeft: "10%" }} >Make prioritization and authentic personalization easier</h4>
                         <br />
                         <br />
-                        <Button className="grbtn"
-                          
-                           >Browser feature</Button>
+                        <Button style={{
+                        backgroundColor: "#FFC740",
+                             color: "black",
+                             borderRadius: "20px",
+                             fontSize: "16px",
+                             padding: "12px",
+                             width: "140px",
+                             border: "none"
+                             }} className="grbtn"
+
+                        >Browser feature</Button>
 
 
                     </div>
