@@ -4,8 +4,8 @@ export const FifthPage = () => {
     return (
         <>
             <div style={{ height: "600px" }}>
-
-                <h1>What will your sales reps' <br /> workflow look like with LeadIQ?</h1>
+<div style={{fontSize:"32px"}}>
+                <h1>What will your sales reps' <br /> workflow look like with LeadIQ?</h1></div>  <br /><br /><br />
 
                 <div className="grid">
                     <div className="g1">

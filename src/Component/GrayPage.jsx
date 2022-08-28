@@ -7,16 +7,16 @@ export const GrayPage = () => {
             <div style={{ height: "900px", backgroundColor: "#f4fbfc" }}>
 
                 <div>
-                    <h1>Sales teams spend too much time on <br /> low value activities. </h1>
+                    <h1 style={{fontSize:"30px"}}  >Sales teams spend too much time on <br /> low value activities. </h1>
                 </div >
 
 
                 <div className="div1flexg" style={{ display: "flex", marginTop: "10%" }}>
 
                     <div className="div1g">
-                        <h2>LeadIQ allows you to:</h2>
-                        <img style={{ marginRight: "90%", marginTop: "10px" }} src="https://assets.website-files.com/60819f9be381394642b5659e/6081b03989e2987115690e4b_leadiq-activities-icon-eliminates.svg" alt="" />
-                        <h4 style={{ marginTop: "-40px", marginLeft: "-35%" }} >Eliminate busy work</h4>
+                        <h2  style={{ marginRight:"22%",fontSize:"22px"  }} >LeadIQ allows you to:</h2>
+                        <img style={{ marginRight: "90%", marginTop: "13px" }} src="https://assets.website-files.com/60819f9be381394642b5659e/6081b03989e2987115690e4b_leadiq-activities-icon-eliminates.svg" alt="" />
+                        <h4 style={{ marginTop: "-40px",marginRight:"22%"  }} >Eliminate busy work</h4>
                         <br />
                         <img style={{ marginRight: "90%", marginTop: "10px" }} src="https://assets.website-files.com/60819f9be381394642b5659e/6081b0396fa45686e75d2ecc_leadiq-activities-icon-enriches.svg" alt="" />
                         <h4 style={{ marginTop: "-40px" }} >Enrich and aggregate your prospect's data</h4>

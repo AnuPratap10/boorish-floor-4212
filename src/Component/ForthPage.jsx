@@ -8,12 +8,14 @@ export const ForthPage = () => {
 
             <div style={{ display: "flex" }}>
                 <div style={{ marginLeft: "20%" }} >
-                    <h2 classname="forthh2" style={{ marginTop: "20%", color: "white" }} >
+                    <h2 classname="forthh2" style={{ marginTop: "20%", color: "white",fontSize:"28px" }} > 
 
                         Locating contact data isn't your  <br />
                         biggest problem—it's just the tip <br />
                         of the iceberg.
                     </h2>
+                    <br />
+                    <br />
                     <p style={{ color: "white" }}   >Modern sales requires engagement across <br /> the entire buying team.</p>
                     <br />
 
